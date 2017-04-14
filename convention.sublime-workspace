@@ -1,0 +1,1121 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"retrieve\tretrieve"
+			],
+			[
+				"hide",
+				"hidden-md-down"
+			],
+			[
+				"readHalfWord",
+				"readHalfWordT"
+			],
+			[
+				"base",
+				"convertNumToBase"
+			],
+			[
+				"msg_head",
+				"msg_header_block_offset"
+			],
+			[
+				"symbology",
+				"symbology_block_offset"
+			],
+			[
+				"desc",
+				"description_block_offset"
+			],
+			[
+				"msg_he",
+				"msg_header_block_offset"
+			],
+			[
+				"h",
+				"highlight\thighlight"
+			],
+			[
+				"me",
+				"media query ipad\tipad"
+			],
+			[
+				"media",
+				"media landscape\tlandscape"
+			],
+			[
+				"tblSales",
+				"tblZIPsalesperson2"
+			],
+			[
+				"false",
+				"FALSE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/views/pages/about.php",
+			"settings":
+			{
+				"buffer_size": 2,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/pages/home.php",
+			"settings":
+			{
+				"buffer_size": 628,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/templates/header.php",
+			"settings":
+			{
+				"buffer_size": 437,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/templates/footer.php",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "convention.sublime-project",
+			"settings":
+			{
+				"buffer_size": 66,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 257,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".bowerrc",
+			"settings":
+			{
+				"buffer_size": 26,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/bootstrap/scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 34848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/bootstrap/scss/_custom.scss",
+			"settings":
+			{
+				"buffer_size": 8579,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/bootstrap/scss/bootstrap.scss",
+			"settings":
+			{
+				"buffer_size": 1004,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/bootstrap/scss/bootstrap-reboot.scss",
+			"settings":
+			{
+				"buffer_size": 161,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/bootstrap/scss/bootstrap-grid.scss",
+			"settings":
+			{
+				"buffer_size": 574,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/Pages.php",
+			"settings":
+			{
+				"buffer_size": 409,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/config/autoload.php",
+			"settings":
+			{
+				"buffer_size": 4042,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sassb",
+				"SassBeautify"
+			]
+		],
+		"width": 534.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alexneises-2170/Documents/convention",
+		"/Users/alexneises-2170/Documents/convention/application",
+		"/Users/alexneises-2170/Documents/convention/application/config",
+		"/Users/alexneises-2170/Documents/convention/application/controllers",
+		"/Users/alexneises-2170/Documents/convention/application/models",
+		"/Users/alexneises-2170/Documents/convention/application/views",
+		"/Users/alexneises-2170/Documents/convention/application/views/news",
+		"/Users/alexneises-2170/Documents/convention/application/views/pages",
+		"/Users/alexneises-2170/Documents/convention/application/views/templates",
+		"/Users/alexneises-2170/Documents/convention/static",
+		"/Users/alexneises-2170/Documents/convention/static/bootstrap",
+		"/Users/alexneises-2170/Documents/convention/static/bootstrap/dist",
+		"/Users/alexneises-2170/Documents/convention/static/bootstrap/dist/js",
+		"/Users/alexneises-2170/Documents/convention/static/bootstrap/scss",
+		"/Users/alexneises-2170/Documents/convention/static/jquery",
+		"/Users/alexneises-2170/Documents/convention/static/tether",
+		"/Users/alexneises-2170/Documents/convention/static/tether/css",
+		"/Users/alexneises-2170/Documents/convention/static/tether/js"
+	],
+	"file_history":
+	[
+		"/Users/alexneises-2170/Documents/convention/application/views/templates/footer.php",
+		"/Users/alexneises-2170/Downloads/webfontkit-20170303-205713/stylesheet.css",
+		"/Users/alexneises-2170/Documents/convention/application/controllers/Pages.php",
+		"/Users/alexneises-2170/Documents/convention/application/config/database.php",
+		"/Users/alexneises-2170/Documents/convention/application/config/routes.php",
+		"/Users/alexneises-2170/Documents/convention/application/models/News_model.php",
+		"/Users/alexneises-2170/Documents/convention/static/bootstrap/Gruntfile.js",
+		"/Users/alexneises-2170/Documents/convention/static/bootstrap/js/.babelrc",
+		"/Users/alexneises-2170/Documents/convention/application/views/templates/header.php",
+		"/Users/alexneises-2170/Documents/convention/static/bootstrap/dist/css/bootstrap.css",
+		"/Users/alexneises-2170/Documents/convention/application/config/config.php",
+		"/Users/alexneises-2170/Documents/convention/.htaccess",
+		"/Users/alexneises-2170/Documents/convention/application/controllers/News.php",
+		"/Users/alexneises-2170/Documents/convention/application/views/news/view.php",
+		"/Users/alexneises-2170/Documents/convention/application/views/news/index.php",
+		"/Users/alexneises-2170/Documents/convention/application/config/autoload.php",
+		"/Users/alexneises-2170/Documents/convention/package.json",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/Gruntfile.coffee",
+		"/Users/alexneises-2170/Projects/globe/src/public/js/default.coffee",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/src/directives.coffee",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/src/preflight.coffee",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/src/core.coffee",
+		"/Users/alexneises-2170/Projects/aws/event-service/test/mocha.opts",
+		"/Users/alexneises-2170/Projects/aws/tag-service/coverage/lcov-report/index.html",
+		"/Users/alexneises-2170/Projects/aws/tag-service/app.js",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/config.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/test/mocha.opts",
+		"/Users/alexneises-2170/Projects/aws/tag-service/data.sql",
+		"/Users/alexneises-2170/Projects/aws/tag-service/testscript.sh",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/test/test.coffee",
+		"/Users/alexneises-2170/Library/Application Support/Spectacle/Shortcuts.json",
+		"/Users/alexneises-2170/Projects/aws/tag-service/TagService.js",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/TagService.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/Gruntfile.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/README.md",
+		"/Users/alexneises-2170/Library/Application Support/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/Users/alexneises-2170/Projects/aws/tag-service/package.json",
+		"/Users/alexneises-2170/Projects/aws/tag-service/.gitignore",
+		"/Users/alexneises-2170/Projects/aws/tag-service/test/test.js",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/app.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/test/mocha.opts",
+		"/Users/alexneises-2170/Projects/aws/tag-service/.babelrc",
+		"/Users/alexneises-2170/Projects/aws/tag-service/test/test.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/tag-service.json",
+		"/var/folders/h7/vlbyl46n6vl8gckrkwf7r4fm0000gn/T/sublime-sftp-browse-1486065560/mapped/home/neisesa/api/config/tag-service.json",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/src/components/models/entity.coffee",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/src/components/views/entity.html",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/bower.json",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/src/components/controllers/entity.coffee",
+		"/Users/alexneises-2170/Projects/aws/admin-portal/src/modules.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/sftp-config.json",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/tag/tag.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/init/staging/tag-service",
+		"/Users/alexneises-2170/Projects/aws/tag-service/init/production/tag-service",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/routes.coffee",
+		"/Users/alexneises-2170/Projects/aws/tag-service/src/app.old",
+		"/Users/alexneises-2170/Projects/aws/elastic-worker/sftp-config.json",
+		"/Users/alexneises-2170/Websites/alexneises.github.io/nx0.json",
+		"/Users/alexneises-2170/Library/Application Support/Sublime Text 3/Packages/User/AngularJS.sublime-settings",
+		"/Users/alexneises-2170/Library/Application Support/Sublime Text 3/Cache/CoffeeAngular Syntax/CoffeeAngular.tmLanguage.cache",
+		"/Users/alexneises-2170/Library/Application Support/Sublime Text 3/Installed Packages/CoffeeAngular Syntax.sublime-package",
+		"/Users/alexneises-2170/Projects/aws/cliquidator/lib/vendor/propel/propel/src/Propel/Generator/Model/BehaviorableTrait.php",
+		"/Users/alexneises-2170/Projects/aws/cliquidator/html/c/cliquidator.php",
+		"/Users/alexneises-2170/Projects/aws/cliquidator/html/c/reports/user_notes_report.php",
+		"/Users/alexneises-2170/Projects/aws/cliquidator/html/c/user.php",
+		"/Users/alexneises-2170/Projects/admin-portal/assets/scss/_text.scss",
+		"/Users/alexneises-2170/Projects/admin-portal/assets/scss/_page.scss",
+		"/Users/alexneises-2170/Projects/admin-portal/assets/scss/_variables.scss",
+		"/Users/alexneises-2170/Projects/admin-portal/assets/scss/cliquidator.scss",
+		"/Users/alexneises-2170/Projects/admin-portal/Gruntfile.coffee",
+		"/Users/alexneises-2170/Projects/admin-portal/src/modules.coffee",
+		"/Users/alexneises-2170/Projects/admin-portal/src/components/views/entity.html",
+		"/Users/alexneises-2170/Projects/admin-portal/src/components/controllers/entity.coffee",
+		"/Users/alexneises-2170/Projects/admin-portal/src/directives.coffee",
+		"/Users/alexneises-2170/Projects/admin-portal/assets/html/tooltip.html",
+		"/Users/alexneises-2170/Projects/aws/entity-service/src/TerritoryManagerService.coffee",
+		"/Users/alexneises-2170/Projects/aws/entity-service/src/EntityService.coffee",
+		"/Users/alexneises-2170/Projects/nexrad.js/static/nx0.json",
+		"/Users/alexneises-2170/Projects/gitstuff/NexradJS/src/radar.htm",
+		"/Users/alexneises-2170/Projects/gitstuff/NexradJS/src/nx0.json",
+		"/Users/alexneises-2170/Projects/nexrad.js/static/svg.js",
+		"/Users/alexneises-2170/Projects/nexrad.js/src/server/server.coffee",
+		"/Users/alexneises-2170/Projects/common/src/models/Employee.coffee",
+		"/Users/alexneises-2170/Projects/common/phonenumber.js",
+		"/Users/alexneises-2170/Projects/common/models/PhoneNumber.js",
+		"/Users/alexneises-2170/Projects/common/src/models/company_industry_code.coffee",
+		"/Users/alexneises-2170/Projects/aws/entity-service/src/CompanyService.coffee",
+		"/Users/alexneises-2170/Projects/nexrad.js/test.json",
+		"/Users/alexneises-2170/Projects/nexrad.js/CHANGELOG",
+		"/Users/alexneises-2170/Projects/nexrad.js/docs/index.html",
+		"/Users/alexneises-2170/Projects/nexrad.js/apidoc.json",
+		"/Users/alexneises-2170/Projects/nexrad.js/README.md",
+		"/Users/alexneises-2170/Projects/nexrad.js/api.md",
+		"/Users/alexneises-2170/Projects/nexradjs/uploads",
+		"/Users/alexneises-2170/Projects/nexradjs/src/config.json",
+		"/Users/alexneises-2170/Projects/nexradjs/src/config.coffee",
+		"/Users/alexneises-2170/Projects/nexradjs/src/process.coffee",
+		"/Users/alexneises-2170/Projects/nexradjs/views/index.html",
+		"/Users/alexneises-2170/Projects/nexradjs/views/index.pug",
+		"/Users/alexneises-2170/Projects/nexradjs/assets/html/index.html",
+		"/Users/alexneises-2170/Projects/nexradjs/assets/socket/socket.io.js",
+		"/Users/alexneises-2170/Projects/admin-portal/src/components/views/prospect.html",
+		"/Users/alexneises-2170/Projects/admin-portal/src/components/controllers/prospect.coffee",
+		"/Users/alexneises-2170/Projects/admin-portal/bower.json",
+		"/Users/alexneises-2170/Downloads/radar (7).log",
+		"/Users/alexneises-2170/Projects/nexradjs/server.coffee",
+		"/Users/alexneises-2170/Projects/aws/address-service/.gitignore",
+		"/Users/alexneises-2170/Projects/nexrad/coords.json",
+		"/Users/alexneises-2170/Projects/nexrad/coords.csv",
+		"/Users/alexneises-2170/Projects/nexrad/_msg18.py",
+		"/Users/alexneises-2170/Projects/nexrad/_nexrad_msgs.py",
+		"/Users/alexneises-2170/Projects/nexrad/resources/colortables/NWSReflectivity.tbl",
+		"/Users/alexneises-2170/Projects/nexrad/resources/colortables/NWSReflectivityExtended.tbl",
+		"/Users/alexneises-2170/Projects/nexrad/nexrad.py",
+		"/Users/alexneises-2170/Projects/admin-portal/README.md",
+		"/Users/alexneises-2170/Projects/admin-portal/assets/js/combined.js",
+		"/Users/alexneises-2170/Projects/admin-portal/tests/components/models/entity.js",
+		"/Users/alexneises-2170/Projects/admin-portal/sftp-config.json",
+		"/Users/alexneises-2170/Projects/admin-portal/src/components/models/entity.coffee",
+		"/Users/alexneises-2170/Projects/admin-portal/karma.conf.js",
+		"/Users/alexneises-2170/Projects/admin-portal/tests/components/models/entity.spec.js",
+		"/Users/alexneises-2170/Projects/admin-portal/src/components/models/entity.spec.coffee",
+		"/Users/alexneises-2170/Projects/admin-portal/package.json",
+		"/Users/alexneises-2170/Projects/MagicMirror/nexrad3.py",
+		"/Users/alexneises-2170/Projects/MagicMirror/_tools.py",
+		"/Users/alexneises-2170/Projects/MagicMirror/convert.py",
+		"/Users/alexneises-2170/Projects/MagicMirror/nexrad.py",
+		"/Users/alexneises-2170/Projects/MagicMirror/variables.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"/Users/alexneises-2170/Projects/aws/event-service",
+			"/Users/alexneises-2170/Projects/aws/cliquidator",
+			"/Users/alexneises-2170/Projects/client/src/purplewave/entities",
+			"/Users/alexneises-2170/Projects/client/src/purplewave/lib",
+			"/Users/alexneises-2170/Projects/client/src/purplewave/modules",
+			"/Users/alexneises-2170/Projects/client/src/purplewave/modules/search",
+			"/Users/alexneises-2170/Projects/datawave",
+			"/Users/alexneises-2170/cliquidator",
+			"/Users/alexneises-2170/clientproject/src",
+			"/Users/alexneises-2170/clientproject",
+			"/Users/alexneises-2170/cliquidator",
+			"/Users/alexneises-2170/Projects/cliquidator",
+			"/Users/alexneises-2170/cliquidator",
+			"/Users/alexneises-2170/Websites/calmdwellings/wp-content/themes/calmdwellings",
+			"/Users/alexneises-2170/client",
+			"/Users/alexneises-2170/cliquidator/",
+			"/Users/alexneises-2170/cliquidator/html/c",
+			"/Users/alexneises-2170/cliquidator"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"flex: 1 1 0%;",
+			"#fff",
+			"url('",
+			"url(",
+			"sass-compile",
+			"dist-css-nodocs",
+			"dist-css",
+			"watch",
+			"container-header",
+			"$scope.cities",
+			"account_id",
+			"scope.cities",
+			"generateID",
+			"searchForCity",
+			"city",
+			"scope.filterText['tables']",
+			"filterSearch",
+			"$location",
+			"SalesPeople",
+			"rs",
+			"style=\"",
+			"filterText['tables']",
+			"$location.search('tables').join()",
+			"$location.search",
+			"path",
+			"$location.search",
+			"filterPage",
+			"key is ",
+			"filterText",
+			"filterPage",
+			"livereload",
+			"request(@server).post('/api/event').send(data).type('form').expect 200, done",
+			"hiredis",
+			"=>",
+			"+ letters +",
+			"account",
+			"str",
+			"  ",
+			"\t",
+			"  ",
+			"lead",
+			"customer",
+			"customerIds",
+			"contact",
+			"contactIds",
+			"contact",
+			"companyIds",
+			"account",
+			"accountIds",
+			"account",
+			"id: chanceId\n\t\t\t\t\t",
+			"' + chanceId + '/",
+			"id ' + chanceId + ' and ",
+			"\n\t\tchanceId = chance.integer({ max: -1 })",
+			"auction",
+			"account",
+			"accounts",
+			"logOutput",
+			"error.NotFound",
+			"error.NotFound()",
+			"console.",
+			"Array.is",
+			"Array.",
+			"console.log",
+			"$scope.searchCities",
+			"$scope.cities[sk]",
+			"foundCities",
+			"headSoldAll",
+			"level1",
+			"items",
+			"0",
+			"data_array[i]._id",
+			"console.log",
+			"$scope.tags[newkey].label",
+			"id",
+			"console.log",
+			"tags",
+			"entityFactory",
+			"industrycodes",
+			"Tags.",
+			"id: id",
+			"recordType?",
+			"!recordType?",
+			"req.params.recordType",
+			"req.params.id",
+			"PersonTags",
+			"personId",
+			"PersonTags",
+			"personId",
+			"PersonTags",
+			"personId",
+			"PersonTags",
+			"personId",
+			"PersonTags",
+			"personId",
+			"PersonTags",
+			"personId",
+			"person",
+			"personTag",
+			"setRecordTag",
+			"protekted",
+			"id",
+			"Tag",
+			"APP",
+			"app",
+			"APP",
+			"app",
+			"APP",
+			"app",
+			"APP",
+			"app",
+			"companytag",
+			"companyTag",
+			"accountTags",
+			"N3D",
+			"NexradDecoder",
+			"field1",
+			"sortDesc",
+			"&& !sortAsc",
+			"sortDesc",
+			" = !sortDesc",
+			"sortDesc",
+			"zoom",
+			"draw",
+			"circle",
+			"getEntities",
+			"salesperson",
+			"error"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/views/pages/about.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/pages/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/views/templates/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/templates/footer.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "convention.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": ".bowerrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "static/bootstrap/scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2626,
+								2626
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1084.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "static/bootstrap/scss/_custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7242,
+								7242
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2669.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "static/bootstrap/scss/bootstrap.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1004,
+								1004
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "static/bootstrap/scss/bootstrap-reboot.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "static/bootstrap/scss/bootstrap-grid.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Praxis).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "application/controllers/Pages.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "application/config/autoload.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4038,
+								4038
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 103.0
+	},
+	"output.sftp":
+	{
+		"height": 103.0
+	},
+	"pinned_build_system": "",
+	"project": "convention.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
