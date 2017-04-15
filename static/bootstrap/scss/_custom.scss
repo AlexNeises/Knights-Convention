@@ -206,6 +206,14 @@ footer {
 	text-decoration: underline;
 }
 
+.row {
+	width: 100%;
+}
+
+.right {
+	text-align: right;
+}
+
 .container {
 	background: $gray-lighter;
 	flex: 1;

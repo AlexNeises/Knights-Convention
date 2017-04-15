@@ -2448,6 +2448,14 @@ footer {
   text-decoration: underline;
 }
 
+.row {
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
 .container {
   background: #eceeef;
   -webkit-box-flex: 1;

@@ -9321,6 +9321,10 @@ footer {
   text-decoration: underline;
 }
 
+.row {
+  width: 100%;
+}
+
 .container {
   background: #eceeef;
   -webkit-box-flex: 1;
