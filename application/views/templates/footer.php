@@ -11,8 +11,7 @@
 				</div>
 			</div>
 			<script src="<?php echo site_url('static/jquery/jquery-3.1.1.min.js'); ?>"></script>
-			<script src="<?php echo site_url('static/foundation/dist/js/foundation.min.js'); ?>"></script>
-			<script src="<?php echo site_url('static/js/core.js'); ?>"></script>
+			<script src="<?php echo site_url('static/js/scripts.js'); ?>"></script>
 		</footer>
 	</body>
 </html>
