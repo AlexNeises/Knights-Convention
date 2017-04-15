@@ -6,7 +6,6 @@ Developed by Alex Neises.
 ## Version 0.0.3
 
 ### CHANGELOG
----
 * [v 0.0.3](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.0.3)
     - Removed unnecessary files
 * [v 0.0.2](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.0.2)
