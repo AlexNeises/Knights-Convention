@@ -6,3 +6,5 @@ application/config/database.php
 */cache/*
 !*/cache/index.html
 !*/cache/.htaccess
+*node_modules*
+*bower_components*

@@ -1,0 +1,315 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+@font-face {
+	font-family: 'blackjack';
+	src: url('../../../fonts/blackjack-webfont.woff2') format('woff2'),
+		 url('../../../fonts/blackjack-webfont.woff') format('woff'),
+		 url('../../../fonts/blackjack-webfont.ttf') format('truetype'),
+		 url('../../../fonts/blackjack-webfont.svg#black_jackregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lora';
+	src: url('../../../fonts/lora-bold-webfont.woff2') format('woff2'),
+		 url('../../../fonts/lora-bold-webfont.woff') format('woff'),
+		 url('../../../fonts/lora-bold-webfont.ttf') format('truetype'),
+		 url('../../../fonts/lora-bold-webfont.svg#lorabold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'lora';
+	src: url('../../../fonts/lora-bolditalic-webfont.woff2') format('woff2'),
+		 url('../../../fonts/lora-bolditalic-webfont.woff') format('woff'),
+		 url('../../../fonts/lora-bolditalic-webfont.ttf') format('truetype'),
+		 url('../../../fonts/lora-bolditalic-webfont.svg#lorabold_italic') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'lora';
+	src: url('../../../fonts/lora-italic-webfont.woff2') format('woff2'),
+		 url('../../../fonts/lora-italic-webfont.woff') format('woff'),
+		 url('../../../fonts/lora-italic-webfont.ttf') format('truetype'),
+		 url('../../../fonts/lora-italic-webfont.svg#loraitalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'lora';
+	src: url('../../../fonts/lora-regular-webfont.woff2') format('woff2'),
+		 url('../../../fonts/lora-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/lora-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/lora-regular-webfont.svg#loraregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url('../../../fonts/roboto-bold-webfont.woff2') format('woff2'),
+		 url('../../../fonts/roboto-bold-webfont.woff') format('woff'),
+		 url('../../../fonts/roboto-bold-webfont.ttf') format('truetype'),
+		 url('../../../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url('../../../fonts/roboto-light-webfont.woff2') format('woff2'),
+		 url('../../../fonts/roboto-light-webfont.woff') format('woff'),
+		 url('../../../fonts/roboto-light-webfont.ttf') format('truetype'),
+		 url('../../../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url('../../../fonts/roboto-regular-webfont.woff2') format('woff2'),
+		 url('../../../fonts/roboto-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/roboto-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'robotoslim';
+	src: url('../../../fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+		 url('../../../fonts/robotocondensed-bold-webfont.woff') format('woff'),
+		 url('../../../fonts/robotocondensed-bold-webfont.ttf') format('truetype'),
+		 url('../../../fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'robotoslim';
+	src: url('../../../fonts/robotocondensed-light-webfont.woff2') format('woff2'),
+		 url('../../../fonts/robotocondensed-light-webfont.woff') format('woff'),
+		 url('../../../fonts/robotocondensed-light-webfont.ttf') format('truetype'),
+		 url('../../../fonts/robotocondensed-light-webfont.svg#roboto_condensedlight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'robotoslim';
+	src: url('../../../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+		 url('../../../fonts/robotocondensed-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/robotocondensed-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'quicksand';
+	src: url('../../../fonts/quicksand-bold-webfont.woff2') format('woff2'),
+		 url('../../../fonts/quicksand-bold-webfont.woff') format('woff'),
+		 url('../../../fonts/quicksand-bold-webfont.ttf') format('truetype'),
+		 url('../../../fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'quicksand';
+	src: url('../../../fonts/quicksand-bolditalic-webfont.woff2') format('woff2'),
+		 url('../../../fonts/quicksand-bolditalic-webfont.woff') format('woff'),
+		 url('../../../fonts/quicksand-bolditalic-webfont.ttf') format('truetype'),
+		 url('../../../fonts/quicksand-bolditalic-webfont.svg#quicksandbold_italic') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'quicksand';
+	src: url('../../../fonts/quicksand-italic-webfont.woff2') format('woff2'),
+		 url('../../../fonts/quicksand-italic-webfont.woff') format('woff'),
+		 url('../../../fonts/quicksand-italic-webfont.ttf') format('truetype'),
+		 url('../../../fonts/quicksand-italic-webfont.svg#quicksanditalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'quicksand';
+	src: url('../../../fonts/quicksand-light-webfont.woff2') format('woff2'),
+		 url('../../../fonts/quicksand-light-webfont.woff') format('woff'),
+		 url('../../../fonts/quicksand-light-webfont.ttf') format('truetype'),
+		 url('../../../fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'quicksand';
+	src: url('../../../fonts/quicksand-lightitalic-webfont.woff2') format('woff2'),
+		 url('../../../fonts/quicksand-lightitalic-webfont.woff') format('woff'),
+		 url('../../../fonts/quicksand-lightitalic-webfont.ttf') format('truetype'),
+		 url('../../../fonts/quicksand-lightitalic-webfont.svg#quicksandlight_italic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'quicksand';
+	src: url('../../../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+		 url('../../../fonts/quicksand-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$knights-blue:		#253b81 !default;
+$knights-red:		#ec2a3f !default;
+$knights-yellow:	#faac1a !default;
+$brand-primary:		$knights-blue !default;
+$brand-warning:		$knights-yellow !default;
+$brand-danger:		$knights-red !default;
+
+body {
+	h1, h2, h3, h4, h5, h6 {
+		font-family: lora;
+	}
+}
+
+footer {
+	background: $knights-blue;
+	min-height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+	color: $white;
+	font-family: lora;
+}
+
+.center {
+	text-align: center;
+}
+
+.emphasis {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.container {
+	background: $gray-lighter;
+	flex: 1;
+	padding-top: 0.75em;
+
+	.container-standard {
+		padding: 5px 5%;
+	}
+
+	.container-flex {
+		display: flex;
+		justify-content: space-around;
+
+		.main-info {
+			flex-basis: 60%;
+		}
+
+		.news {
+			flex-basis: 30%;
+			
+			h3 {
+				text-align: center;
+			}
+		}
+	}
+}
+
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 50px;
+	z-index: 10;
+	width: 100%;
+	padding: 0 5%;
+	background: rgba($knights-blue, 0.75);
+	color: $white;
+
+	h1 {
+		margin: 0;
+	}
+}
+
+.header-img {
+	position: relative;
+	display: block;
+	
+	.text-box {
+		position: relative;
+		display: flex;
+		height: 400px;
+		flex-direction: column;
+		z-index: 1;
+		width: 100%;
+		justify-content: center;
+		
+		.top-text {
+			margin-top: 1rem;
+			margin-bottom: 0;
+			color: $white;
+			font-size: 3.5em;
+			font-family: quicksand;
+			text-align: center;
+		}
+
+		.bottom-text {
+			color: $white;
+			font-size: 4em;
+			font-family: blackjack;
+			text-align: center;
+		}
+	}
+	
+	.home {
+		position: absolute;
+		top: 0;
+		background: url('../../../images/basiclia1.jpg');
+		background-position: 50%;
+		background-size: cover;
+		display: block;
+		width: 100%;
+		height: 400px;
+		&::after {
+			content: '';
+			background: rgba(0, 0, 0, 0.75);
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "name": "convention",
+  "authors": [
+    "Alex Neises <alex.neises@purplewave.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "static",
+    "test",
+    "tests"
+  ]
+}
