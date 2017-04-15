@@ -6,10 +6,10 @@ Developed by Alex Neises.
 ## Version 0.0.3
 
 ### CHANGELOG
-
-* v 0.0.3
+---
+* [v 0.0.3](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.0.3)
     - Removed unnecessary files
-* v 0.0.2
+* [v 0.0.2](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.0.2)
     - Created sample index.php
-* v 0.0.1
+* [v 0.0.1](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.0.1)
     - Added initial files

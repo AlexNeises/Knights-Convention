@@ -10,3 +10,4 @@ application/config/database.php
 *bower_components*
 *.sublime-workspace
 index.php
+*.log
