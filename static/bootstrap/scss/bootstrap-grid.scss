@@ -22,6 +22,7 @@ html {
   box-sizing: inherit;
 }
 
+@import "custom";
 @import "variables";
 
 //
@@ -34,4 +35,3 @@ html {
 
 @import "grid";
 @import "utilities/flex";
-@import "custom";

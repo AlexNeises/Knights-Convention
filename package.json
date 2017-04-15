@@ -1,0 +1,30 @@
+{
+  "name": "knights-convention",
+  "version": "0.0.1",
+  "description": "Source code for the entire Kansas Knights of Columbus State Convention website.",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "sass": "node-sass --output-style expanded --source-map true --precision 6 static/styles/core.scss static/styles/core.css",
+    "css": "cleancss --level 1 --source-map --output static/styles/dist/combined.min.css static/styles/dist/combined.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexNeises/Knights-Convention.git"
+  },
+  "author": "Alex Neises",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AlexNeises/Knights-Convention/issues"
+  },
+  "homepage": "https://github.com/AlexNeises/Knights-Convention#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.0.12",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-exec": "^2.0.0",
+    "node-sass": "^4.5.2"
+  }
+}

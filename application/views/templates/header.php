@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Kansas Knights Convention 2019</title>
-		<link href="<?php echo site_url('static/bootstrap/dist/css/bootstrap.min.css'); ?>?<?php echo time(); ?>" rel="stylesheet" />
+		<link href="<?php echo site_url('static/styles/dist/combined.min.css'); ?>?<?php echo time(); ?>" rel="stylesheet" />
 		<link href="<?php echo site_url('static/tether/css/tether.min.css'); ?>" rel="stylesheet" />
 	</head>
 	<body class="site">

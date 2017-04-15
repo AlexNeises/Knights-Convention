@@ -6,6 +6,7 @@
  */
 
 // Core variables and mixins
+@import "custom";
 @import "variables";
 @import "mixins";
 
@@ -49,4 +50,3 @@
 
 // Utility classes
 @import "utilities";
-@import "custom";
