@@ -9,3 +9,4 @@ application/config/database.php
 *node_modules*
 *bower_components*
 *.sublime-workspace
+index.php
