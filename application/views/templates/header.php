@@ -2,11 +2,12 @@
 	<head>
 		<title>Kansas Knights Convention 2019</title>
 		<link href="<?php echo site_url('static/styles/dist/combined.min.css'); ?>?<?php echo time(); ?>" rel="stylesheet" />
-		<link href="<?php echo site_url('static/tether/css/tether.min.css'); ?>" rel="stylesheet" />
 	</head>
 	<body class="site">
-		<div class="container-fluid container-header">
-			<h1><?php echo $logo; ?></h1>
+		<div class="header row expanded">
+			<div class="small-12 columns">
+				<h1><?php echo $logo; ?></h1>
+			</div>
 		</div>
 		<main class="site-content">
 			<div class="header-img">
@@ -17,4 +18,4 @@
 				<div class="home"></div>
 			</div>
 			<div class="container">
-				<div class="container-<?php echo $type; ?>">
+				<div class="container-flex">
