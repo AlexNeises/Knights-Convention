@@ -12,12 +12,28 @@ module.exports = (grunt) ->
                     'static/styles/core.css'
                 ]
                 dest: 'static/styles/dist/combined.css'
+            js:
+                src: [
+                    'static/foundation/dist/js/foundation.js'
+                    'static/js/dist/*.js'
+                ]
+                dest: 'static/js/scripts.js'
 
         exec:
             sass:
                 command: 'npm run sass'
             css:
                 command: 'npm run css'
+
+        coffee:
+            compile:
+                files: [
+                    expand: true
+                    cwd: 'static/js/src/'
+                    src: ['**/*.coffee']
+                    dest: 'static/js/dist/'
+                    ext: '.js'
+                ]
 
         clean:
             styles: [
@@ -27,8 +43,9 @@ module.exports = (grunt) ->
             ]
 
     grunt.loadNpmTasks 'grunt-contrib-clean'
+    grunt.loadNpmTasks 'grunt-contrib-coffee'
     grunt.loadNpmTasks 'grunt-contrib-concat'
     grunt.loadNpmTasks 'grunt-exec'
 
-    grunt.registerTask 'default', ['concat:sass', 'exec:sass', 'concat:css', 'exec:css', 'clean:styles']
+    grunt.registerTask 'default', ['concat:sass', 'exec:sass', 'concat:css', 'exec:css', 'coffee', 'concat:js', 'clean:styles']
     
