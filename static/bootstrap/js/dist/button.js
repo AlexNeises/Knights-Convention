@@ -62,7 +62,6 @@ var Button = function ($) {
 
     Button.prototype.toggle = function toggle() {
       var triggerChangeEvent = true;
-      var addAriaPressed = true;
       var rootElement = $(this._element).closest(Selector.DATA_TOGGLE)[0];
 
       if (rootElement) {
@@ -87,13 +86,10 @@ var Button = function ($) {
           }
 
           input.focus();
-          addAriaPressed = false;
         }
       }
 
-      if (addAriaPressed) {
-        this._element.setAttribute('aria-pressed', !$(this._element).hasClass(ClassName.ACTIVE));
-      }
+      this._element.setAttribute('aria-pressed', !$(this._element).hasClass(ClassName.ACTIVE));
 
       if (triggerChangeEvent) {
         $(this._element).toggleClass(ClassName.ACTIVE);
