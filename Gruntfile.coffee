@@ -3,13 +3,12 @@ module.exports = (grunt) ->
         concat:
             sass:
                 src: [
-                    'static/bootstrap/scss/_variables.scss'
                     'static/styles/scss/*.scss'
                 ]
                 dest: 'static/styles/core.scss'
             css:
                 src: [
-                    'static/bootstrap/dist/css/bootstrap.css'
+                    'static/foundation/dist/css/foundation-flex.css'
                     'static/styles/core.css'
                 ]
                 dest: 'static/styles/dist/combined.css'
