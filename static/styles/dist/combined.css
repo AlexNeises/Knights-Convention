@@ -4720,6 +4720,12 @@ body h1 {
   flex: 1;
 }
 
+@media screen and (max-width: 39.9375em) {
+  .container {
+    margin: auto 0;
+  }
+}
+
 .container .container-standard {
   padding: 5px 5%;
 }
@@ -4794,6 +4800,12 @@ body h1 {
   text-align: center;
 }
 
+@media screen and (max-width: 39.9375em) {
+  .header-img .text-box .top-text {
+    font-size: 3em;
+  }
+}
+
 .header-img .text-box .bottom-text {
   color: #FFFFFF;
   font-size: 4em;
@@ -4804,9 +4816,10 @@ body h1 {
 .header-img .home {
   position: absolute;
   top: 0;
-  background: url("../../images/basiclia1.jpg");
-  background-position: 50%;
-  background-size: cover;
+  background: url("../../images/C_140_DN.jpg");
+  background-position-x: 5%;
+  background-position-y: 25%;
+  background-size: 150%;
   display: block;
   width: 100%;
   height: 400px;
