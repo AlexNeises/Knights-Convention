@@ -10,7 +10,12 @@
 								<?php $item = $news_item[$i]; ?>
 								<h4><?php echo $item['title']; ?></h4>
 								<em><?php echo $item['blurb']; ?>...</em>
-								<div><small>Posted <?php echo date('F j, Y', strtotime($item['submitted_on'])); ?> at <?php echo date('g:i A', strtotime($item['submitted_on'])); ?></small></div>
+								<?php if (ENVIRONMENT == 'production') : ?>
+									<?php $time = strtotime($item['submitted_on']) + 2 * 60 * 60; ?>
+								<?php else : ?>
+									<?php $time = strtotime($item['submitted_on']); ?>
+								<?php endif; ?>
+								<div><small>Posted <?php echo date('F j, Y', $time); ?> at <?php echo date('g:i A', $time); ?></small></div>
 								<a href="<?php echo site_url('news/' . $item['slug']); ?>">View article</a>
 								<hr />
 							</div>
