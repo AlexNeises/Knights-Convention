@@ -10,7 +10,14 @@ class News extends CI_Controller
 	public function index()
 	{
 		$data['news'] = $this->news_model->get_news();
-		$data['title'] = 'News archive';
+		$data['logo'] = ucfirst('home');
+		$data['type'] = 'flex';
+		$data['top_text'] = 'News Archive';
+
+		$readme = file_get_contents('README.md');
+		$secondhalf = explode('## Version ', $readme);
+		$version = explode("\n\n### CHANGELOG", $secondhalf[1]);
+		$data['version'] = $version[0];
 
 		$this->load->view('templates/header', $data);
 		$this->load->view('news/index', $data);
@@ -19,7 +26,18 @@ class News extends CI_Controller
 
 	public function view($slug = NULL)
 	{
+		$data['logo'] = ucfirst('home');
+		$data['type'] = 'flex';
+		$data['bottom_text'] = null;
+
+		$readme = file_get_contents('README.md');
+		$secondhalf = explode('## Version ', $readme);
+		$version = explode("\n\n### CHANGELOG", $secondhalf[1]);
+		$data['version'] = $version[0];
+
 		$data['news_item'] = $this->news_model->get_news($slug);
+
+		$data['top_text'] = $data['news_item']['title'];
 
 		if (empty($data['news_item']))
 		{
