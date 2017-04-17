@@ -4,6 +4,9 @@
 	<label for="title">Title</label>
 	<input type="input" name="title" /><br />
 
+    <label for="blurb">Blurb</label>
+    <input type="input" name="blurb" /><br />
+
 	<label for="text">Text</label>
 	<textarea name="text"></textarea><br />
 

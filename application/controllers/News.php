@@ -9,7 +9,7 @@ class News extends CI_Controller
 
 	public function index()
 	{
-		$data['news'] = $this->news_model->get_news();
+		$data['news'] = News_Model::get_all();
 		$data['logo'] = ucfirst('home');
 		$data['type'] = 'flex';
 		$data['top_text'] = 'News Archive';
@@ -35,16 +35,15 @@ class News extends CI_Controller
 		$version = explode("\n\n### CHANGELOG", $secondhalf[1]);
 		$data['version'] = $version[0];
 
-		$data['news_item'] = $this->news_model->get_news($slug);
-
-		$data['top_text'] = $data['news_item']['title'];
+		$data['news_item'] = News_Model::get_by_slug($slug);
 
 		if (empty($data['news_item']))
 		{
 			show_404();
 		}
-
-		$data['title'] = $data['news_item']['title'];
+		
+		$data['top_text'] = $data['news_item']->get_title();
+		$data['title'] = $data['news_item']->get_title();
 
 		$this->load->view('templates/header', $data);
 		$this->load->view('news/view', $data);
@@ -53,9 +52,19 @@ class News extends CI_Controller
 
 	public function create()
 	{
-		$data['title'] = 'Create a news item';
+		$data['logo'] = ucfirst('home');
+		$data['type'] = 'flex';
+		$data['top_text'] = 'Submit News';
+		$data['bottom_text'] = null;
+		$data['title'] = 'Submit news (markdown)';
+
+		$readme = file_get_contents('README.md');
+		$secondhalf = explode('## Version ', $readme);
+		$version = explode("\n\n### CHANGELOG", $secondhalf[1]);
+		$data['version'] = $version[0];
 
 		$this->form_validation->set_rules('title', 'Title', 'required');
+		$this->form_validation->set_rules('text', 'Blurb', 'required');
 		$this->form_validation->set_rules('text', 'Text', 'required');
 
 		if ($this->form_validation->run() === FALSE)
@@ -66,8 +75,16 @@ class News extends CI_Controller
 		}
 		else
 		{
-			$this->news_model->set_news();
-			$this->load->view('news/success');
+			$article = new News_Model();
+			$article->set_title($this->input->post('title'));
+			$article->set_slug(url_title($this->input->post('title'), 'dash', TRUE));
+			$article->set_blurb($this->input->post('blurb'));
+			$article->set_text($this->input->post('text'));
+			$article->save();
+
+			$this->load->view('templates/header', $data);
+			$this->load->view('news/create');
+			$this->load->view('templates/footer');
 		}
 	}
 }

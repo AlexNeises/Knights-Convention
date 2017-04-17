@@ -5,14 +5,15 @@ class Pages extends CI_Controller
 	{
 		if (!file_exists(APPPATH . 'views/pages/' . $page . '.php'))
 		{
-			show_404();
+			show_404('errors/_404');
 		}
 
 		$data['logo'] = ucfirst($page);
 		$data['type'] = 'flex';
 		$data['top_text'] = 'Kansas Knights Convention';
 		$data['bottom_text'] = '2019';
-		$data['news_item'] = $this->news_model->get_news();
+		// var_dump(News_Model::get_by_slug('test-1'));
+		$data['news_item'] = News_Model::get_all();
 		$readme = file_get_contents('README.md');
 		$secondhalf = explode('## Version ', $readme);
 		$version = explode("\n\n### CHANGELOG", $secondhalf[1]);
