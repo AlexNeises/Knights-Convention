@@ -3,9 +3,12 @@ Source code for the entire Kansas Knights of Columbus State Convention website.
 
 Developed by Alex Neises.
 
-## Version 0.1.1
+## Version 0.1.2
 
 ### CHANGELOG
+* [v 0.1.2](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.1.2)
+    - Added various logo sizes
+    - Updated styles
 * [v 0.1.1](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.1.1)
     - Added custom 404 handler
 * [v 0.1.0](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.1.0)
