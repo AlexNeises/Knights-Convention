@@ -6,9 +6,14 @@
 		<link href="<?php echo site_url('static/images/logotiny.png'); ?>" type="image/png" rel="icon" />
 	</head>
 	<body class="site">
+		<?php include_once('analyticstracking.php'); ?>
 		<div class="header row expanded">
 			<div class="small-12 columns">
-				<a href="<?php echo site_url('/'); ?>"><div class="logo">Home</div></a>
+				<div class="row">
+					<div class="small-3 columns">
+						<a href="<?php echo site_url('/'); ?>"><div class="logo">Home</div></a>
+					</div>
+				</div>
 			</div>
 		</div>
 		<main class="site-content">
