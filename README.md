@@ -3,9 +3,11 @@ Source code for the entire Kansas Knights of Columbus State Convention website.
 
 Developed by Alex Neises.
 
-## Version 0.1.3
+## Version 0.1.4
 
 ### CHANGELOG
+* [v 0.1.4](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.1.4)
+    - Replace `site_url` with `base_url`
 * [v 0.1.3](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.1.3)
     - Added Google Analytics tracking code
 * [v 0.1.2](https://github.com/AlexNeises/Knights-Convention/releases/tag/0.1.2)
