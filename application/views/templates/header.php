@@ -2,8 +2,8 @@
 	<head>
 		<title>Kansas Knights Convention 2019</title>
 		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-		<link href="<?php echo site_url('static/styles/dist/combined.min.css'); ?>?<?php echo time(); ?>" rel="stylesheet" />
-		<link href="<?php echo site_url('static/images/logotiny.png'); ?>" type="image/png" rel="icon" />
+		<link href="<?php echo base_url('static/styles/dist/combined.min.css'); ?>?<?php echo time(); ?>" rel="stylesheet" />
+		<link href="<?php echo base_url('static/images/logotiny.png'); ?>" type="image/png" rel="icon" />
 	</head>
 	<body class="site">
 		<?php include_once('analyticstracking.php'); ?>
@@ -11,7 +11,7 @@
 			<div class="small-12 columns">
 				<div class="row">
 					<div class="small-3 columns">
-						<a href="<?php echo site_url('/'); ?>"><div class="logo">Home</div></a>
+						<a href="<?php echo base_url('/'); ?>"><div class="logo">Home</div></a>
 					</div>
 				</div>
 			</div>

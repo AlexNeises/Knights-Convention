@@ -3,7 +3,7 @@
         <h2>The page you requested could not be found.</h2>
         <br />
         <div class="padding-bottom">
-            <a href="<?php echo site_url('/'); ?>">Home</a>
+            <a href="<?php echo base_url('/'); ?>">Home</a>
         </div>
     </div>
 </div>

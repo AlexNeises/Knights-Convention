@@ -21,13 +21,13 @@
 									<?php $time = strtotime($item->get_submitted_on()); ?>
 								<?php endif; ?>
 								<div><small>Posted <?php echo date('F j, Y', $time); ?> at <?php echo date('g:i A', $time); ?></small></div>
-								<a href="<?php echo site_url('news/' . $item->get_slug()); ?>">View article</a>
+								<a href="<?php echo base_url('news/' . $item->get_slug()); ?>">View article</a>
 								<hr />
 							</div>
 						<?php endif; ?>
 					<?php endfor; ?>
 					<div class="padding-bottom">
-						<a href="<?php echo site_url('news/'); ?>">View older items</a>
+						<a href="<?php echo base_url('news/'); ?>">View older items</a>
 					</div>
 				</div>
 			</div>
@@ -52,13 +52,13 @@
 									<?php $time = strtotime($item->get_submitted_on()); ?>
 								<?php endif; ?>
 								<div><small>Posted <?php echo date('F j, Y', $time); ?> at <?php echo date('g:i A', $time); ?></small></div>
-								<a href="<?php echo site_url('news/' . $item->get_slug()); ?>">View article</a>
+								<a href="<?php echo base_url('news/' . $item->get_slug()); ?>">View article</a>
 								<hr />
 							</div>
 						<?php endif; ?>
 					<?php endfor; ?>
 					<div class="padding-bottom">
-						<a href="<?php echo site_url('news/'); ?>">View older items</a>
+						<a href="<?php echo base_url('news/'); ?>">View older items</a>
 					</div>
 				</div>
 			</div>
