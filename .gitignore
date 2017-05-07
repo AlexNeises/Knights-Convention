@@ -11,3 +11,4 @@ application/config/database.php
 *.sublime-workspace
 index.php
 *.log
+.htaccess
