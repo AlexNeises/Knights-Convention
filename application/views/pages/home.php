@@ -32,6 +32,12 @@
 				</div>
 			</div>
 			<div class="hide-for-large row">
+				<div class="top small-12 columns">
+					<h1>Kansas Knights State Convention</h1>
+					<h2>Manhattan 2019</h2>
+				</div>
+			</div>
+			<div class="hide-for-large row">
 				<div class="small-12 columns">
 					<h3>News</h3>
 					<?php for ($i = 0; $i < sizeof($news_item); $i++) : ?>
