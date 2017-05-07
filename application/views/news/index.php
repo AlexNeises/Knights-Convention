@@ -9,9 +9,9 @@
 		<em><?php echo $news_item->get_blurb(); ?>...</em>
         <div><small>Posted <?php echo date('F j, Y', $time); ?> at <?php echo date('g:i A', $time); ?></small></div>
 	</div>
-	<p><a href="<?php echo site_url('news/' . $news_item->get_slug()); ?>">View article</a></p>
+	<p><a href="<?php echo base_url('news/' . $news_item->get_slug()); ?>">View article</a></p>
 <?php endforeach; ?>
 <br />
 <div class="padding-bottom">
-    <a href="<?php echo site_url('/'); ?>">Home</a>
+    <a href="<?php echo base_url('/'); ?>">Home</a>
 </div>
