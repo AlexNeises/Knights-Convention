@@ -1,11 +1,12 @@
 {
   "name": "knights-convention",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Source code for the entire Kansas Knights of Columbus State Convention website.",
   "main": "Gruntfile.coffee",
   "scripts": {
     "sass": "node-sass --output-style expanded --source-map true --precision 6 static/styles/core.scss static/styles/core.css",
     "css": "cleancss --level 1 --source-map --output static/styles/dist/combined.min.css static/styles/dist/combined.css",
+    "js": "uglifyjs --compress --mangle --output static/js/scripts.min.js -- static/js/scripts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,7 @@
     "grunt-contrib-coffee": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-exec": "^2.0.0",
-    "node-sass": "^4.5.2"
+    "node-sass": "^4.5.2",
+    "uglify-js": "^3.0.1"
   }
 }
