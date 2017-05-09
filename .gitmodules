@@ -3,4 +3,4 @@
 	url = git@github.com:zurb/foundation-sites.git
 [submodule "static/crevasse"]
 	path = static/crevasse
-	url = https://github.com/patbenatar/crevasse.git
+	url = git@github.com:patbenatar/crevasse.git
