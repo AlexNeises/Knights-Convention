@@ -1,4 +1,4 @@
-			<div class="show-for-large row">
+			<div class="show-for-large row expanded">
 				<div class="logo-bg small-8 columns">
 					<div class="row">
 						<div class="top small-12 columns">
