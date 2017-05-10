@@ -52,6 +52,13 @@ class News extends CI_Controller
 
 	public function create()
 	{
+		if (!$this->session->userdata('logged_in'))
+		{
+			$this->session->set_flashdata('alert', 'You must be logged in to access this page.');
+			$this->session->set_flashdata('server', $_SERVER['REQUEST_URI']);
+			redirect('/login');
+		}
+
 		$data['logo'] = ucfirst('home');
 		$data['type'] = 'flex';
 		$data['top_text'] = 'Submit News';
@@ -64,7 +71,7 @@ class News extends CI_Controller
 		$data['version'] = $version[0];
 
 		$this->form_validation->set_rules('title', 'Title', 'required');
-		$this->form_validation->set_rules('text', 'Blurb', 'required');
+		$this->form_validation->set_rules('blurb', 'Blurb', 'required');
 		$this->form_validation->set_rules('text', 'Text', 'required');
 
 		if ($this->form_validation->run() === FALSE)

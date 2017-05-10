@@ -8,6 +8,14 @@ class Pages extends CI_Controller
 			show_404('errors/_404');
 		}
 
+		$this->email->from('noreply@kansas-kofc2019.org', 'Kansas Convention 2019');
+		$this->email->to('alex@neis.es');
+
+		$this->email->subject('Account Confirmation');
+		$this->email->message('Testing the email class.');
+
+		$this->email->send();
+
 		$data['logo'] = ucfirst($page);
 		$data['type'] = 'flex';
 		$data['top_text'] = 'Kansas Knights Convention';

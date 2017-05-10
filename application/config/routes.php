@@ -55,4 +55,6 @@ $route['news'] = 'news';
 $route['register'] = 'registration';
 $route['404_override'] = 'errors/_404';
 $route['seo/sitemap'] = 'seo/sitemap';
+$route['login'] = 'registration/login';
+$route['logout'] = 'registration/logout';
 $route['default_controller'] = 'pages/view';

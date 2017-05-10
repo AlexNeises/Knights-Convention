@@ -30,3 +30,21 @@
             </div>
             <div class="row expanded gutter">
                 <div class="small-12 columns">
+                    <?php if (!is_null($this->session->flashdata('alert'))) : ?>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <div class="callout alert">
+                                    <?php echo $this->session->flashdata('alert'); ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (!is_null($this->session->flashdata('success'))) : ?>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <div class="callout success">
+                                    <?php echo $this->session->flashdata('success'); ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endif; ?>
