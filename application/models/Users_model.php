@@ -340,6 +340,11 @@ class Users_model extends CI_Model
             $row = $query->result()[0];
             $account = new Users_Model($row->id, $row);
 
+            if ($account->get_confirmed() != 1)
+            {
+                return false;
+            }
+
             if (crypt($password, $account->get_password()) == $account->get_password())
             {
                 $account->save();
@@ -354,6 +359,7 @@ class Users_model extends CI_Model
                 $ci->session->set_userdata($newdata);
                 return true;
             }
+            return false;
         }
         return false;
     }
