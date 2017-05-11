@@ -1,5 +1,8 @@
 (function() {
   $(document).ready(function() {
+    $('#news_editor').crevasse({
+      previewer: $('#news_previewer')
+    });
     $('#text_other').on('click', function() {
       if ($(this).is('[readonly]')) {
         return $('#check_other').click();

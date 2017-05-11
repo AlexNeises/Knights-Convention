@@ -13,6 +13,16 @@
                     <div class="small-3 columns">
                         <a href="<?php echo base_url('/'); ?>"><div class="logo">Home</div></a>
                     </div>
+                    <?php if ($this->session->userdata('logged_in')) : ?>
+                        <div class="small-3 small-offset-6 right columns">
+                            <!-- <a href="<?php //echo base_url('/account'); ?>" class="nav-item">My Account</a> -->
+                            <a href="<?php echo base_url('/logout'); ?>" class="nav-item">Logout</a>
+                        </div>
+                    <?php else : ?>
+                        <div class="small-3 small-offset-6 right columns">
+                            <a href="<?php echo base_url('/login'); ?>" class="nav-item">Login</a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -30,3 +40,21 @@
             </div>
             <div class="row expanded gutter">
                 <div class="small-12 columns">
+                    <?php if (!is_null($this->session->flashdata('alert'))) : ?>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <div class="callout alert">
+                                    <?php echo $this->session->flashdata('alert'); ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (!is_null($this->session->flashdata('success'))) : ?>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <div class="callout success">
+                                    <?php echo $this->session->flashdata('success'); ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endif; ?>

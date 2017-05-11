@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('form_validation', 'encryption', 'markdown', 'database');
+$autoload['libraries'] = array('recaptcha', 'form_validation', 'encryption', 'markdown', 'database', 'session', 'email');
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +103,7 @@ $autoload['helper'] = array('url', 'form');
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array();
+$autoload['config'] = array('recaptcha');
 
 /*
 | -------------------------------------------------------------------
@@ -132,4 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('news_model' => 'News_Model');
+$autoload['model'] = array('news_model' => 'News_Model', 'users_model' => 'Users_Model');

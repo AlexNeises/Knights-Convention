@@ -9,6 +9,7 @@ module.exports = (grunt) ->
             css:
                 src: [
                     'static/foundation/dist/css/foundation-flex.css'
+                    'static/crevasse/dependencies/solarized-light.css'
                     'static/crevasse/lib/css/crevasse.css'
                     'static/styles/core.css'
                 ]
@@ -16,6 +17,10 @@ module.exports = (grunt) ->
             js:
                 src: [
                     'static/jquery/jquery-3.1.1.min.js'
+                    'static/crevasse/dependencies/jquery.caret.js'
+                    'static/crevasse/dependencies/jquery.scrollTo.min.js'
+                    'static/crevasse/dependencies/marked.js'
+                    'static/crevasse/dependencies/rainbow-custom.min.js'
                     'static/foundation/dist/js/foundation.js'
                     'static/crevasse/lib/js/crevasse.js'
                     'static/js/dist/*.js'

@@ -195,6 +195,31 @@ body {
     }
 }
 
+.nav-item {
+    font-family: quicksand;
+    font-size: 1.5rem;
+    color: $white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    &::after {
+        display: block;
+        content: "";
+        border-bottom: 1px solid $white;
+        transform: scaleX(0);
+        transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+        color: $white;
+
+        &::after {
+            transform: scaleX(1);
+        }
+    }
+}
+
 .padding-bottom {
     padding-bottom: 2rem;
 }
@@ -214,6 +239,28 @@ body {
     font-family: blackjack;
     color: $white;
     font-size: 2.5rem;
+    padding-top: 5px;
+    line-height: 1;
+
+    &::after {
+        display: block;
+        content: "";
+        border-bottom: 1px solid $white;
+        transform: scaleX(0);
+        transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+        color: $white;
+
+        &::after {
+            transform: scaleX(1);
+        }
+    }
+}
+
+div.g-recaptcha > div {
+    margin: 0 auto 10px auto;
 }
 
 .logo-bg {
@@ -233,7 +280,7 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: 50%;
-        opacity: 0.25;
+        opacity: 0.15;
         z-index: -1;
     }
 }
@@ -285,6 +332,14 @@ body {
     h1 {
         margin: 0;
     }
+
+    .row {
+        align-items: center;
+    }
+}
+
+.row {
+    max-width: none;
 }
 
 .header-img {
