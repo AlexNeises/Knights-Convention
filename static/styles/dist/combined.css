@@ -4988,6 +4988,31 @@ body h1 a:hover {
   color: #FFFFFF;
 }
 
+.nav-item {
+  font-family: quicksand;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-item::after {
+  display: block;
+  content: "";
+  border-bottom: 1px solid #FFFFFF;
+  transform: scaleX(0);
+  transition: all 0.15s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #FFFFFF;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+}
+
 .padding-bottom {
   padding-bottom: 2rem;
 }
@@ -5007,6 +5032,28 @@ body h1 a:hover {
   font-family: blackjack;
   color: #FFFFFF;
   font-size: 2.5rem;
+  padding-top: 5px;
+  line-height: 1;
+}
+
+.logo::after {
+  display: block;
+  content: "";
+  border-bottom: 1px solid #FFFFFF;
+  transform: scaleX(0);
+  transition: all 0.15s ease-in-out;
+}
+
+.logo:hover {
+  color: #FFFFFF;
+}
+
+.logo:hover::after {
+  transform: scaleX(1);
+}
+
+div.g-recaptcha > div {
+  margin: 0 auto 10px auto;
 }
 
 .logo-bg {
@@ -5027,7 +5074,7 @@ body h1 a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
-  opacity: 0.25;
+  opacity: 0.15;
   z-index: -1;
 }
 
@@ -5079,6 +5126,10 @@ body h1 a:hover {
 
 .header h1 {
   margin: 0;
+}
+
+.header .row {
+  align-items: center;
 }
 
 .row {

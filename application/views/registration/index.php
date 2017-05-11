@@ -1,4 +1,5 @@
 <div class="row">
+	<?php echo $this->recaptcha->getScriptTag(); ?>
 	<div class="small-12 large-6 large-offset-3 columns">
         <?php if (validation_errors() !== '') : ?>
             <div class="row">
@@ -53,6 +54,11 @@
 				<label>Confirm Password
 					<input type="password" name="passconf" />
 				</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 large-4 large-offset-4 columns centered">
+				<?php echo $this->recaptcha->getWidget(); ?>
 			</div>
 		</div>
 		<div class="row">
