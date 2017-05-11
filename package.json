@@ -1,6 +1,6 @@
 {
   "name": "knights-convention",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Source code for the entire Kansas Knights of Columbus State Convention website.",
   "main": "Gruntfile.coffee",
   "scripts": {
